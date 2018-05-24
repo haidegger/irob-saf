@@ -47,10 +47,9 @@ First, install gstreamer dependencies, see on [gscam github](https://github.com/
 
 After the dependencies are installed, clone and build the gscam ROS package from GitHub with the flag for gstreamer 1.0:
  
-    cd catkin_ws/src
+    cd ~/catkin_ws/src
     git clone https://github.com/ros-drivers/gscam.git
-    cd gscam
-    cd ../..
+    cd ~/catkin_ws
     catkin config --cmake-args -DGSTREAMER_VERSION_1_x=On
 
 Then, in decklink.launch replace the following to ensure compatibility vith gstreamer 1.0:
