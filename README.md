@@ -2,13 +2,13 @@
 
 ## About
 
-The *iRob Surgical Automation Framework*---`irob-saf`--- is an open-source ROS-based metapackage, built by the Antal Bejczy Center for Intelligent Robotics (iRob), for the aim to support the research of partial automation in robot-assisted surgery.  The packages of the framework implements basic functionalities, usable as universal building blocks in surgical automation, such as infrastructure to implement subtask-level logic, interfacing of stereo cameras, a hierarchic motion library with parameterizable surgemes, and high-level robot control. The framework were built and tested alongside the da Vinci Resarch Kit (dVRK), however it is easily portable to other platforms as well.
+The *iRob Surgical Automation Framework*---`irob-saf`--- is an open-source ROS-based metapackage, built by the Antal Bejczy Center for Intelligent Robotics (iRob), for the aim to support the research of partial automation in robot-assisted surgery.  The packages of the framework implements basic functionalities, usable as universal building blocks in surgical automation, such as infrastructure to implement subtask-level logic, interfacing of stereo cameras, a hierarchic motion library with parameterizable surgemes, and high-level robot control. The framework was built and tested alongside the da Vinci Resarch Kit (dVRK), however it is easily portable to other platforms as well.
 
 ## Citation
 
 If you use this framework in your reserach, please cite the following article:
 
-Nagy, Tamás D., and Tamás Haidegger. “An Open-Source Framework for Surgical Subtask Automation.” In Proc. of the 2018 IEEE Intl. Conf. on Robotics and Automation (ICRA), Workshop on Supervised Autonomy in Surgical Robotics. Brisbane, Australia, 2018.
+Nagy, Tamás D. and Tamás Haidegger. “An Open-Source Framework for Surgical Subtask Automation.” In Proc. of the 2018 IEEE Intl. Conf. on Robotics and Automation (ICRA), Workshop on Supervised Autonomy in Surgical Robotics. Brisbane, Australia, 2018.
 
 ## List of Packages
 * [irob_msgs](https://github.com/ABC-iRobotics/irob-saf/tree/master/irob_msgs)
@@ -82,7 +82,7 @@ ROS packages using the Eigen library have to list the /usr/include/eigen3 in the
    
 ### dVRK
  
-The library can be used stand-alone, but it was developed to use with the [da Vinci Reserach Kit v1.5](https://github.com/jhu-dvrk/sawIntuitiveResearchKit/wiki), icluding the [cisst-saw](https://github.com/jhu-cisst/cisst/wiki/Compiling-cisst-and-SAW-with-CMake#13-building-using-catkin-build-tools-for-ros) and the [dvrk-ros](https://github.com/jhu-dvrk/sawIntuitiveResearchKit/wiki/CatkinBuild#dvrk-ros) packages. To install these packages, use do the following steps:
+The library can be used stand-alone, but it was developed to be used with the [da Vinci Reserach Kit v1.5](https://github.com/jhu-dvrk/sawIntuitiveResearchKit/wiki), icluding the [cisst-saw](https://github.com/jhu-cisst/cisst/wiki/Compiling-cisst-and-SAW-with-CMake#13-building-using-catkin-build-tools-for-ros) and the [dvrk-ros](https://github.com/jhu-dvrk/sawIntuitiveResearchKit/wiki/CatkinBuild#dvrk-ros) packages. To install these packages, use do the following steps:
 
 * install `cisst-saw` by folloing this [guide](https://github.com/jhu-cisst/cisst/wiki/Compiling-cisst-and-SAW-with-CMake#13-building-using-catkin-build-tools-for-ros)
 * install `dvrk-ros` as seen in this [guide](https://github.com/jhu-dvrk/sawIntuitiveResearchKit/wiki/CatkinBuild#dvrk-ros)
